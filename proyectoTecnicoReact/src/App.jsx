@@ -3,6 +3,7 @@ import Home from "./componets/home/home"
 import Peliculas from "./componets/peliculas/peliculas"
 import Series from "./componets/series/series"
 import Navbar from "./componets/navbar/navbar"
+import Footer from "./componets/footer/footer"
 
 
 function Router(){
@@ -18,8 +19,10 @@ function App() {
     <>
     <BrowserRouter>
     <Navbar/>
+
     <Router>
     </Router>
+    <Footer/>
     </BrowserRouter>
 
     </>
