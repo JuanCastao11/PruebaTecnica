@@ -1,5 +1,5 @@
 import React from 'react'
-import { Subtitle } from '../subtitle/subtitle'
+import { Subtitle } from '../../componets/subtitle/subtitle'
 
 const Popular = () => {
   return (

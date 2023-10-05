@@ -1,0 +1,15 @@
+.modal{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@font-face {
+    font-family:Friday;
+    src: url(../..//assets/Cinematografica-Extrabold-trial.ttf);
+}
+h2{
+    font-family: Friday;
+}
+p,h3,.boton{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

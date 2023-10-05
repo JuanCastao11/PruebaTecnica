@@ -1,10 +1,10 @@
 import { BrowserRouter, useRoutes } from "react-router-dom"
-import Home from "./componets/home/home"
-import Peliculas from "./componets/peliculas/peliculas"
-import Series from "./componets/series/series"
+import Home from "./pages/home/home"
+import Peliculas from "./pages/peliculas/peliculas"
+import Series from "./pages/series/series"
 import Navbar from "./componets/navbar/navbar"
 import Footer from "./componets/footer/footer"
-import Popular from "./componets/popular_titles/popular"
+import Popular from "./pages/popular_titles/popular"
 
 function Router(){
   let router = useRoutes ([
