@@ -47,7 +47,7 @@ function Peliculas() {
             <h1 className="pl-[6%] text-[1.6rem] text-white "><Subtitle title="Popular Movies" /> </h1>
         </div>
     </header>
-    <main className= " h-[120vh] p-10" >
+    <main className= "  p-10" >
     {
     error ?(
       <div className="errorr mensaje">Oops , something went  wrog</div>

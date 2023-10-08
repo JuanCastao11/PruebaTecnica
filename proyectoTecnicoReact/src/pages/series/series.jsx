@@ -46,7 +46,7 @@ function Series() {
             <h1 className="pl-[6%] text-[1.6rem] text-white "> <Subtitle title="Popular Series"/></h1>
         </div>
     </header>
-    <main className=' h-[180vh] p-10'>
+    <main className='  p-10'>
       {
       error ?(
           <div className="error">Oops , something went  wrog</div>

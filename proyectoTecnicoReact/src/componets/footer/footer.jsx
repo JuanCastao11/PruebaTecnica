@@ -6,7 +6,7 @@ const Footer = () => {
             <div>
                 <ul className=" flex text-white ml-[4.6%] p-2 pt-6 flex-wrap">
                     <li className=" border-r-2  h-2">
-                        <NavLink className=" ">
+                        <NavLink to="/" className=" ">
                         <h3>Home</h3>
                         </NavLink>
                     </li>
